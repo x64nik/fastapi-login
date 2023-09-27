@@ -4,6 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+fastapi = "==0.103.1"
+uvicorn = "==0.23.2"
+python-decouple = "==3.8"
+pyjwt = "==2.8.0"
+email-validator = "*"
 
 [dev-packages]
 
